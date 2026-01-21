@@ -890,36 +890,42 @@ public class worseCodeScript : MonoBehaviour {
         {
             { "Filename", "WorseCode.json" },
             { "Name", "Worse Code Settings" },
-            { "Listing", new List<Dictionary<string, object>>{
+            { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
                 {
                     { "Key", "AssistByDefault" },
-                    { "Text", "Whether or not assist mode is active by default." }
+                    { "Text", "Assist by Default" },
+                    { "Description", "Whether assist mode is active by default." }
                 }, 
                 new Dictionary<string, object>
                 {
+                    { "Key", "ToggleAssist" },
+                    { "Text", "Toggle Assist"},
+                    { "Description", "Rather than having to hold keys down, each key acts as a toggle." }
+                },
+                new Dictionary<string, object>
+                {
                     { "Key", "TopmostLane" },
-                    { "Text", "Key used for the topmost lane." }
+                    { "Text", "Topmost Lane" },
+                    { "Description", "Key used for the topmost lane." }
                 }, 
                 new Dictionary<string, object>
                 {
                     { "Key", "SecondLane" },
-                    { "Text", "Key used for the second lane." }
+                    { "Text", "Second Lane" },
+                    { "Description", "Key used for the second lane." }
                 }, 
                 new Dictionary<string, object>
                 {
                     { "Key", "ThirdLane" },
-                    { "Text", "Key used for the third lane." }
+                    { "Text", "Third Lane" },
+                    { "Description", "Key used for the third lane." }
                 }, 
                 new Dictionary<string, object>
                 {
                     { "Key", "BottommostLane" },
-                    { "Text", "Key used for the bottommost lane." }
-                },
-                new Dictionary<string, object>
-                {
-                    { "Key", "ToggleAssist" },
-                    { "Text", "Rather than having to hold keys down, each key acts as a toggle." }
+                    { "Text", "Bottommost Lane" },
+                    { "Description", "Key used for the bottommost lane." }
                 }
             } }
         }
