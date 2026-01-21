@@ -888,7 +888,7 @@ public class worseCodeScript : MonoBehaviour {
     {
         new Dictionary<string, object>
         {
-            { "Filename", "WorseCode.json" },
+            { "Filename", "WorseCodeSettings.json" },
             { "Name", "Worse Code Settings" },
             { "Listings", new List<Dictionary<string, object>>{
                 new Dictionary<string, object>
